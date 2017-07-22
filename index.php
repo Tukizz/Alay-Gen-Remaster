@@ -40,7 +40,7 @@ $hasil=str_replace($asli,$alay,$kecil);
 ?>
         						<div class="input-field col s6">
           							<i class="material-icons prefix">chevron_right</i>
-          							<textarea id="icon_prefix2" class="materialize-textarea black-text" disabled="disabled" readonly><?php 
+          							<textarea id="icon_prefix2" class="materialize-textarea black-text" readonly><?php 
 										if(!empty($hasil)){
 											echo $hasil;
 										}else{
